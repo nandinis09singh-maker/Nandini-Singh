@@ -1,0 +1,6 @@
+import{c as l,j as e,B as n}from"./index-A8nsD5mw.js";/**
+ * @license lucide-react v0.468.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const i=l("SearchX",[["path",{d:"m13.5 8.5-5 5",key:"1cs55j"}],["path",{d:"m8.5 8.5 5 5",key:"a8mexj"}],["circle",{cx:"11",cy:"11",r:"8",key:"4ej97u"}],["path",{d:"m21 21-4.3-4.3",key:"1qie3q"}]]);function m({icon:a=i,title:s="No items found",description:d="Try adjusting your search criteria or clear your active filters.",actionLabel:t,onAction:r,className:c=""}){return e.jsxs("div",{className:`flex flex-col items-center justify-center p-8 sm:p-12 text-center rounded-2xl border border-dashed border-slate-300 dark:border-slate-800 bg-white/50 dark:bg-slate-900/50 backdrop-blur-sm ${c}`,children:[e.jsx("div",{className:"w-16 h-16 rounded-2xl bg-brand-50 dark:bg-brand-950/40 text-brand-600 dark:text-brand-400 flex items-center justify-center mb-4 shadow-inner",children:e.jsx(a,{className:"w-8 h-8"})}),e.jsx("h3",{className:"text-lg font-bold text-slate-900 dark:text-slate-100 mb-1",children:s}),e.jsx("p",{className:"text-sm text-slate-500 dark:text-slate-400 max-w-md mb-6 leading-relaxed",children:d}),t&&r&&e.jsx(n,{onClick:r,variant:"outline",size:"sm",children:t})]})}export{m as E};
